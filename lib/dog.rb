@@ -2,6 +2,8 @@ class Dog
 
   @@all = []
 
+  attr_accesor :name
+
   def initialize(name)
     @name = name
     @@all << self
